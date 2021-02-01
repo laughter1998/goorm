@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css'>
+    <link rel="stylesheet" href="../css/core.css">
+    <style>
+
+    </style>
+</head>
+<body class="fixed-sidebar fixed-header">
+    <div class="wrapper">
+
+			<!-- GNB Preloader -->
+			<!-- GNB -->
+        <div class="site-sidebar">
+        	<div class="custom-scroll" id="simple-bar">
+        		<ul class="sidebar-menu">
+        			<li class="menu-title">COMMON</li>
+        			<li class="with-sub active">
+        				<a href="#" >
+        					<span class="s-caret"><i class="fa fa-angle-down"></i></span>
+        					<span class="s-icon"><i class="ti-settings"></i></span>
+        					<span class="s-text">SETTINGS</span>
+        				</a>
+        				<ul >
+        					<li><a href="../main/main.html">DASHBOARD</a></li>
+                            <li><a href="../boardList/list.html">sample</a></li>
+                            <li><a href="../main/main.html">DASHBOARD</a></li>
+        				</ul>
+        			</li>
+        			<li class="menu-title">CNTR</li>
+        			<li class="with-sub">
+        				<a href="#" >
+        					<span class="s-caret"><i class="fa fa-angle-down"></i></span>
+        					<span class="s-icon"><i class="ti-shopping-cart"></i></span>
+        					<span class="s-text">BUYING</span>
+        				</a>
+                        <ul >
+        					<li><a href="../main/main.html">DASHBOARD</a></li>
+                            <li><a href="../main/main.html">DASHBOARD</a></li>
+                            <li><a href="../main/main.html">DASHBOARD</a></li>
+        				</ul>
+        			</li>
+
+                    <li >
+        				<a href="../asset/searchAsset.html" >
+        					<span class="s-icon"><i class="ti-view-list"></i></span>
+        					<span class="s-text">장비 목록</span>
+        				</a>
+        			</li>
+
+        			<li class="with-sub">
+        				<a href="#" >
+        					<span class="s-caret"><i class="fa fa-angle-down"></i></span>
+        					<span class="s-icon"><i class="ti-share"></i></span>
+        					<span class="s-text">SELLING </span>
+        				</a>
+                        <ul >
+        					<li><a href="../main/main.html">DASHBOARD</a></li>
+                            <li><a href="../main/main.html">DASHBOARD</a></li>
+                            <li><a href="../main/main.html">DASHBOARD</a></li>
+        				</ul>
+        			</li>
+        		</ul>
+        	</div>
+        </div>
+			<!--// GNB Preloader -->
+
+
+			<!-- Header TNB -->
+			<div class="site-header">
+				<nav class="navbar navbar-light">
+
+					<div class="navbar-left">
+						<a class="navbar-brand" href="/main/main.html">
+							<div class="logo"></div>
+						</a>
+						<div class="toggle-button dark sidebar-toggle-first float-xs-left  d-md-none">
+							<span class="hamburger"></span><!--모바일-->
+						</div>
+
+						<div class="toggle-button dark float-xs-right d-md-none" data-toggle="collapse" data-target="#collapse-1">
+							<span class="more"></span><!--모바일-->
+						</div>
+					</div>
+					<div class="navbar-right d-md-block collapse" id="collapse-1">
+						<!-- 햄버거 -->
+						<div class="toggle-button light sidebar-toggle-second float-left hidden-sm-down">
+							<span class="hamburger"></span>
+						</div><!--// 햄버거 -->
+
+						<!-- 비번 -->
+						<ul class="nav navbar-nav float-md-right">
+							<li class="nav-item ">
+								<a class="nav-link" href="/logout.html">
+									<i class="fa fa-unlock"></i>
+									<span class="tag tag-success top">logout</span>
+								</a>
+							</li>
+							<li class="nav-item ">
+								<a class="nav-link" href="/setting/admin_reg.html?seq=111">
+									<i class="fa fa-user"></i>
+									<span class="tag tag-success top">elaza</span>
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="#" data-toggle="modal" data-target="#pwModal">
+									<i class="fa fa-key"></i>
+									<span class="tag tag-success top">PW</span>
+								</a>
+							</li>
+						</ul><!--// 비번 -->
+
+
+
+						<ul class="nav navbar-nav">
+							<!-- 크게보기 -->
+							<li class="nav-item hidden-sm-down">
+								<a class="nav-link toggle-fullscreen" href="#">
+									<i class="ti-fullscreen"></i>
+								</a>
+							</li><!--// 크게보기 -->
+							<!-- 바로가기 격자-->
+							<li class="nav-item dropdown hidden-sm-down">
+								<a class="nav-link" href="#" data-toggle="dropdown" aria-expanded="false">
+									<i class="ti-layout-grid3"></i>
+								</a>
+								<div class="dropdown-apps dropdown-menu animated fadeInUp">
+									<div class="a-grid">
+										<div class="row row-sm">
+											<div class="col-xs-4">
+												<div class="a-item">
+													<a href="http://jinji.kukdongmes.com" target="_blank">
+														<div class="ai-icon"><i class="fa fa-home"></i></div>
+														<div class="ai-title">JJMES</div>
+													</a>
+												</div>
+											</div>
+											<!--div class="col-xs-4">
+												<div class="a-item">
+													<a href="http://gulf.kukdongmes.com" target="_blank">
+														<div class="ai-icon"><i class="fa fa-home"></i></div>
+														<div class="ai-title">GULF</div>
+													</a>
+												</div>
+											</div-->
+
+
+										</div>
+									</div>
+								</div>
+							</li><!-- // 바로가기 격자-->
+						</ul>
+
+
+
+					</div>
+				</nav>
+			</div>
+
+			<!-- 비번 변경 -->
+			<div class="modal fade" id="pwModal" tabindex="-1" role="dialog" aria-labelledby="pwModalLabel" aria-hidden="true">
+				<form name="nm_layer_passmodify" action="/pro/member/password_modify.php" target="hiddenfrm" method="post">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">×</span>
+							</button>
+							<h4 class="modal-title" id="exampleModalLabel">비밀번호 변경</h4>
+						</div>
+						<div class="modal-body">
+
+								<div class="form-group">
+									<label for="idfl_pass" class="form-control-label">CURRENT PASSWORD</label>
+									<input type="password" class="form-control" id="idfl_pass" name="pass" onkeydown="if(event.keyCode==13)js_layerpassmodify()" autocomplete="off">
+								</div>
+								<div class="form-group">
+									<label for="idfl_pass2" class="form-control-label">PASSWORD TO BE CHANGED</label>
+									<input type="password" class="form-control" id="idfl_pass2" name="pass2" onkeydown="if(event.keyCode==13)js_layerpassmodify()" autocomplete="off">
+									<input type="password" class="form-control" id="idfl_pass3" style="margin-top:5px;" onkeydown="if(event.keyCode==13)js_layerpassmodify()" autocomplete="off">
+								</div>
+
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+							<button type="button" class="btn btn-primary" onclick="javascript:js_layerpassmodify()"> 확인</button>
+						</div>
+					</div>
+				</div>
+				</form>
+			</div><!--// 비번 변경 -->
+			<script>
+				function js_layerpassmodify(){
+					var f = document.nm_layer_passmodify;
+					if(!$("#idfl_pass").val()){
+						alert("Please enter  CURRENT PASSWORD");
+						$("#idfl_pass").focus();
+						return;
+					}
+					if(!$("#idfl_pass2").val()){
+						alert("Please enter  PASSWORD TO BE CHANGED");
+						$("#idfl_pass2").focus();
+						return;
+					}
+					if(!$("#idfl_pass3").val()){
+						alert("Please enter  PASSWORD TO BE CHANGED");
+						$("#idfl_pass3").focus();
+						return;
+					}
+					if($("#idfl_pass2").val()!=$("#idfl_pass3").val()){
+						alert("Please check your password");
+						$("#idfl_pass").focus();
+						return;
+					}
+					f.submit();
+				}
+			</script>
+
+
+
+			<div class="site-content">
+				<!-- Content -->
+				<div class="content-area py-1">
+					<div class="container-fluid">
+						<h4>CLIENT LIST</h4>
+
+                        <div class="box box-block bg-white">
+                            11
+                        </div>
+					</div>
+				</div><!-- content-area-->
+
+
+				<!-- Footer -->
+
+				<footer class="footer">
+					<div class="container-fluid">
+						<div class="row text-xs-center">
+							<div class="col-sm-12 text-sm-left mb-0-5 mb-sm-0">
+								2019 © (주)극동MES
+							</div>
+						</div>
+					</div>
+				</footer>
+
+			</div>
+
+
+		</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
+
+</body>
+</html>
